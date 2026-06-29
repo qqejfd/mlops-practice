@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/wurfi/OneDrive/Desktop/ekz/mlops-practice/mlops-practice/mlruns/1/models/m-5748cac7dc1b4283b85d758f0fb5e551/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-5748cac7dc1b4283b85d758f0fb5e551
+model_size_bytes: 1835667
+model_uuid: m-5748cac7dc1b4283b85d758f0fb5e551
+prompts: null
+run_id: 8a462b7fd5d34cd3910c229fb342d50e
+utc_time_created: '2026-06-29 06:13:29.123121'
