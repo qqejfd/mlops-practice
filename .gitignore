@@ -1,0 +1,14 @@
+# Среда и кэш
+__pycache__/
+.venv/
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Игнорируем данные и модели
+/data/*
+/models/*
+
+!/data/.keep
+!/models/.keep
