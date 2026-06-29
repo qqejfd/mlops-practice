@@ -32,9 +32,9 @@ jobs:
           git clone https://$HF_USER:$HF_TOKEN@huggingface.co/spaces/$HF_USER/$SPACE_NAME space_repo
 
           cp -r src/ space_repo/src/
-          cp -r models/ space_repo/models/
-          cp requirements.txt space_repo/requirements.txt
-          cp Dockerfile space_repo/Dockerfile
+	  cp -r models/ space_repo/models/
+	  cp requirements-api.txt space_repo/requirements-api.txt
+	  cp Dockerfile space_repo/Dockerfile
 
           find space_repo -name "mlflow.db" -type f -delete
           find space_repo -name "__pycache__" -type d -exec rm -rf {} +
